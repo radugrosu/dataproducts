@@ -16,18 +16,11 @@ Is Life Really Getting Better?
 
 ![img](presentation-figure/oecd.png)
 
-The **Organisation for Economic Co-Operation and Development** (OECD) has been gathering data for more than a decade in an effort to measure the progress of societies.
-
 The **OECD** *Better Life Initiative* moves beyond GDP and focuses on developing statistics to capture aspects of life that matter to people and that shape the quality of their lives.
-
-The app is available here:  https://radu.shinyapps.io/BetterLifeIndex
-
-The Data
-========================================================
-The datasets used for this visualisation is provided by the **OECD** as a part of its *Better Life Initiative*, an effort which allows the **OECD** to better advise policy makers on the priorities they should concentrate on to deliver better lives for their citizens.
 
 The data mostly come from official sources such as the *OECD* or National Accounts, *United Nations Statistics*, *National Statistics Offices*. A couple of indicators are based on data from the *Gallup World Poll* a division of the **Gallup Organization** that regularly conducts public opinion polls in more than 140 countries around the world.
 
+Use the app here:  https://radu.shinyapps.io/BetterLifeIndex
 
 Data Snippet
 ========================================================
@@ -36,20 +29,20 @@ Data Snippet
 Indicators available for socio-economic inequality:
 
 ```r
-sort(unique(filter(ble, Inequality=="High")$Indicator))
+ble %>% filter(Inequality=='High') %>%
+    subset(select='Indicator', drop=TRUE) %>%
+    unique %>% sort %>% head(8)
 ```
 
 ```
- [1] "Employment rate"                         
- [2] "Household net adjusted disposable income"
- [3] "Life satisfaction"                       
- [4] "Long-term unemployment rate"             
- [5] "Personal earnings"                       
- [6] "Quality of support network"              
- [7] "Self-reported health"                    
- [8] "Student skills"                          
- [9] "Voter turnout"                           
-[10] "Water quality"                           
+[1] "Employment rate"                         
+[2] "Household net adjusted disposable income"
+[3] "Life satisfaction"                       
+[4] "Long-term unemployment rate"             
+[5] "Personal earnings"                       
+[6] "Quality of support network"              
+[7] "Self-reported health"                    
+[8] "Student skills"                          
 ```
 
 
