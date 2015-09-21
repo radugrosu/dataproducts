@@ -68,10 +68,11 @@ img {
 <h2>Motivation</h2>
 <p>This presentation was created as part of the course project for the <strong>Developing Data Products</strong> class within the <strong>Coursera</strong> <em>Data Science specialization track</em>.</p>
 <p>It is supposed to showcase the possibilities offered by RStudio’s <a href="http://www.shinyapps.io/">Shiny</a> web-app building platform and the extra interactivity offered by the <a href="http://rcharts.io/">rCharts</a> package.</p>
+<p>The app is available online <a href="https://radu.shinyapps.io/BetterLifeIndex">here</a>.</p>
 </div>
 <div id="the-data" class="section level2">
 <h2>The Data</h2>
-<p>The datasets <sup><sup><a href="http://stats.oecd.org/Index.aspx?DataSetCode=BLI">1</a></sup></sup> used for this visualisation are provided by the <a href="oecd.org">Organization for Economic Co-Operation and Development</a> as a part of its <a href="http://www.oecd.org/statistics/better-life-initiative.htm">Better Life Initiative</a>. This effort allows the OECD to better advise policy makers on the priorities they should concentrate on to deliver better lives for their citizens.</p>
+<p>The datasets <sup><a href="http://stats.oecd.org/Index.aspx?DataSetCode=BLI">1</a></sup> used for this visualisation are provided by the <a href="oecd.org">Organization for Economic Co-Operation and Development</a> as a part of its <a href="http://www.oecd.org/statistics/better-life-initiative.htm">Better Life Initiative</a>. This effort allows the OECD to better advise policy makers on the priorities they should concentrate on to deliver better lives for their citizens.</p>
 <p>The data mostly come from official sources such as the OECD or National Accounts, United Nations Statistics, National Statistics Offices. A couple of indicators are based on data from the Gallup World Poll a division of the Gallup Organization that regularly conducts public opinion polls in more than 140 countries around the world.</p>
 <blockquote>
 <p>The OECD Better Life Initiative focuses on developing statistics to capture aspects of life that matter to people and that shape the quality of their lives. This allows for a better understanding of what drives the well-being of people and nations, and what needs to be done to achieve greater progress for all.</p>
@@ -80,11 +81,11 @@ img {
 <p>The Better Life Index aims to involve citizens in the debate on measuring the well-being of societies, and to empower them to become more informed and engaged in the policy-making process that shapes all our lives. Each of the 11 topics (community, education, environment, civic engagement, health, housing, income, jobs, life satisfaction, safety and work-life balance) of the Index is currently based on one to three indicators. Within each topic, the indicators are averaged with equal weights. The indicators have been chosen on the basis of a number of statistical criteria such as relevance (face-validity, depth, policy relevance) and data quality (predictive validity, coverage, timeliness, cross-country comparability etc.) and in consultation with OECD member countries. These indicators are good measures of the concepts of well-being, in particular in the context of a country comparative exercise. Other indicators will gradually be added to each topic.</p>
 </blockquote>
 <p>The OECD provides a dataset with measurements for 24 indicators for each year starting with 2013. These datasets were downloaded manually, and then cleaned and consolidated in <a href="https://www.r-project.org/">R</a>.</p>
-<p>The large majority of these indicators is gender-specific, i.e. available for women and men separately. In a small minority of cases (e.g. in the housing dimension), the indicators cannot be broken down by gender and thus the average country value are supplied for both women and men. Similarly, majority of indicators is available separately for high socio-economic status versus low socio-economic status. In the case of education, high socio-economic status is defined as the group of the population with a tertiary education degree while low socio-economic status is defined as the group of the population with a primary education degree.</p>
+<p>The large majority of these indicators is gender-specific, i.e. available for women and men separately. In a small minority of cases (e.g. in the housing dimension), the indicators cannot be broken down by gender and thus the average country value are supplied for both women and men. Similarly, most indicators are available separately for high socio-economic status versus low socio-economic status. In the case of education, high socio-economic status is defined as the group of the population with a tertiary education degree while low socio-economic status is defined as the group of the population with a primary education degree.</p>
 </div>
 <div id="the-visualization" class="section level2">
 <h2>The Visualization</h2>
-<p>For any chosen indicator the first plot displays its measure across countries for the chosen year, and the second plot diplays its measure for the selected country across the years 2013-2015. One of two contrasts can be chosen for both plots: differences due to Gender, and differences due to Socio-economic status (Educational attainment <code>ISCED 5/6</code> group vs. <code>ISCED 0/1/2</code> group<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>(<a href="http://www.uis.unesco.org/Education/Documents/isced-2011-en.pdf" class="uri">http://www.uis.unesco.org/Education/Documents/isced-2011-en.pdf</a>) ).</p>
+<p>For any chosen indicator the first plot displays its measure across countries for the chosen year, and the second plot diplays its measure for the selected country across the years 2013-2015. One of two contrasts can be chosen for both plots: differences due to Gender, and differences due to Socio-economic status (Educational attainment <code>ISCED 5/6</code> group vs. <code>ISCED 0/1/2</code> group <sup><a href="http://www.uis.unesco.org/Education/Documents/isced-2011-en.pdf">2</a></sup>).</p>
 </div>
 <div id="source" class="section level2">
 <h2>Source</h2>
@@ -93,12 +94,6 @@ img {
 <p><em>Acknowledgements</em>:</p>
 <p>The information regarding the dataset and the OECD was introduced mostly verbatim from <a href="http://www.oecdbetterlifeindex.org" class="uri">http://www.oecdbetterlifeindex.org</a>.</p>
 <p>The visualization was inpired by <a href="http://ramnathv.github.io/rChartsShiny/">this</a> post by Ramnath Vaidyanathan.</p>
-</div>
-<div class="footnotes">
-<hr />
-<ol>
-<li id="fn1"><p>2<a href="#fnref1">↩</a></p></li>
-</ol>
 </div>
 
 

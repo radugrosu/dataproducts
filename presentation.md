@@ -20,6 +20,7 @@ The **Organisation for Economic Co-Operation and Development** (OECD) has been g
 
 The **OECD** *Better Life Initiative* moves beyond GDP and focuses on developing statistics to capture aspects of life that matter to people and that shape the quality of their lives.
 
+The app is available here:  https://radu.shinyapps.io/BetterLifeIndex
 
 The Data
 ========================================================

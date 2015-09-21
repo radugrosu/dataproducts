@@ -50,7 +50,7 @@ shinyUI(pageWithSidebar(
                      showOutput(outputId='chart2', lib='polycharts')
             ),
 
-            tabPanel("About", includeMarkdown("README.md"))
+            tabPanel("About", includeMarkdown("README.Rmd"))
         )
     )
 ))

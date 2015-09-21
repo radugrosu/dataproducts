@@ -10,9 +10,11 @@ This presentation was created as part of the course project for the **Developing
 
 It is supposed to showcase the possibilities offered by RStudio's [Shiny](http://www.shinyapps.io/) web-app building platform and the extra interactivity offered by the [rCharts](http://rcharts.io/) package.
 
+The app is available online [here](https://radu.shinyapps.io/BetterLifeIndex).
+
 ## The Data
 
-The datasets ^^[1](http://stats.oecd.org/Index.aspx?DataSetCode=BLI)^^ used for this visualisation are provided by the [Organization for Economic Co-Operation and Development](oecd.org) as a part of its [Better Life Initiative](http://www.oecd.org/statistics/better-life-initiative.htm). This effort allows the OECD to better advise policy makers on the priorities they should concentrate on to deliver better lives for their citizens. 
+The datasets <sup>[1](http://stats.oecd.org/Index.aspx?DataSetCode=BLI)</sup> used for this visualisation are provided by the [Organization for Economic Co-Operation and Development](oecd.org) as a part of its [Better Life Initiative](http://www.oecd.org/statistics/better-life-initiative.htm). This effort allows the OECD to better advise policy makers on the priorities they should concentrate on to deliver better lives for their citizens. 
 
 The data mostly come from official sources such as the OECD or National Accounts, United Nations Statistics, National Statistics Offices. A couple of indicators are based on data from the Gallup World Poll a division of the Gallup Organization that regularly conducts public opinion polls in more than 140 countries around the world.
 
@@ -35,7 +37,7 @@ The large majority of these indicators is gender-specific, i.e. available for wo
 ## The Visualization
 
 For any chosen indicator the first plot displays its measure across countries for the chosen year, and the second plot diplays its measure for the selected country across the years 2013-2015.
-One of two contrasts can be chosen for both plots: differences due to Gender, and differences due to Socio-economic status (Educational attainment `ISCED 5/6` group vs. `ISCED 0/1/2` group^[2](http://www.uis.unesco.org/Education/Documents/isced-2011-en.pdf) ).
+One of two contrasts can be chosen for both plots: differences due to Gender, and differences due to Socio-economic status (Educational attainment `ISCED 5/6` group vs. `ISCED 0/1/2` group <sup>[2](http://www.uis.unesco.org/Education/Documents/isced-2011-en.pdf)</sup>).
 
 
 ## Source
