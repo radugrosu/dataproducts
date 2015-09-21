@@ -1,0 +1,147 @@
+{
+"Dwellings without basic facilities": {
+	"Data sources": "European Union Statistics on Income and Living Conditions (EU-SILC), National Statistical Offices.",
+	"Data Characteristics": "Percentage of the population. The reference year is 2013 with the exception of 2011 for Norway, the Russian federation and Turkey, 2010 for Brazil, Iceland, Ireland, Korea, Mexico, 2008 for Japan, 2001 for Chile, 1997 for Canada.",
+	"Unit of measure used": "Percentage",
+	"Key statistical concept": "This indicator refers to the percentage of the population living in a dwelling without indoor flushing toilet for the sole use of their households. Flushing toilets outside the dwelling are not to be considered in this item. Flushing toilets in a room where there is also a shower unit or a bath are also counted."
+},
+"Housing expenditure": {
+	"Data sources": "OECD calculations based on OECD National Accounts Database.",
+	"Data Characteristics": "Percentage of the household gross adjusted disposable income. The reference year is 2012 for all the countries.",
+	"Unit of measure used": "Percentage",
+	"Key statistical concept": "This indicator considers the expenditure of households in housing and maintenance of the house, as defined in the SNA (P31CP040: Housing, water, electricity, gas and other fuels; P31CP050: Furnishings, households’ equipment and routine maintenance of the house). It includes actual and imputed rentals for housing, expenditure in maintenance and repair of the dwelling (including miscellaneous services), in water supply, electricity, gas and other fuels, as well as the expenditure in furniture and furnishings and households equipment, and goods and services for routine maintenance of the house as a percentage of the household gross adjusted disposable income. Data refer to the sum of households and non-profit institution serving households."
+},
+"Rooms per person": {
+	"Data sources": "European Union Statistics on Income and Living Conditions (EU-SILC), National Statistical Offices and OECD's calculations.",
+	"Data Characteristics": "Rate (number of rooms divided by the number of people living in the dwelling). The reference year is 2013 with the exception of 2012 for Ireland, Israel; 2011 for Canada, the Russian federation and Turkey; 2010 for Korea, Mexico; 2008 for Japan; 2001 for Chile.",
+	"Unit of measure used": "Ratio",
+	"Key statistical concept": "This indicator refers to the number of rooms (excluding kitchenette, scullery/utility room, bathroom, toilet, garage, consulting rooms, office, shop) in a dwelling divided by the number of persons living in the dwelling."
+},
+"Household net adjusted disposable income": {
+	"Data sources": "OECD calculations based on the OECD National Accounts at a Glance and Statistics New Zealand",
+	"Data Characteristics": "US dollars at current PPPs per capita. The reference year is 2012 for all countries. PPPs are those for actual individual consumption",
+	"Unit of measure used": "US dollar",
+	"Key statistical concept": "It's the maximum amount that a household can afford to consume without having to reduce its assets or to increase its liabilities. It's obtained adding to people’s gross income (earnings, self-employment and capital income, as well as current monetary transfers received from other sectors) the social transfers in-kind that households receive from governments (such as education and health care services), and then subtracting the taxes on income and wealth, the social security contributions paid by households as well as the depreciation of capital goods consumed by households. Available data refer to the sum of households and non-profit institution serving households."
+},
+"Household net financial wealth": {
+	"Data sources": "OECD calculations based on the OECD National Accounts at a Glance and Statistics New Zealand",
+	"Data Characteristics": "US dollars at current PPPs per capita. The reference year is 2012 for all countries. PPPs are those for private consumption",
+	"Unit of measure used": "US dollar",
+	"Key statistical concept": "Net financial wealth consists of : currency and deposits, securities other than share, loans, shares and other equity (including shares issued by investment funds), insurance technical reserves, and other accounts receivable or payable, net of household financial liabilities, as defined by the System of National Accounts – SNA. Data refer to the sum of households and non-profit institution serving households."
+},
+"Employment rate": {
+	"Data sources": "OECD Labour Force Statistics Database. OECD Labour Force Statistics Database - Labour force statistics by sex and age",
+	"Data Characteristics": "Percentage of the working-age population (aged 15-64). The reference year is 2013 for all countries.",
+	"Unit of measure used": "Percentage",
+	"Key statistical concept": "It is the number of employed persons aged 15 to 64 over the population of the same age. Employed people are those aged 15 or more who report that they have worked in gainful employment for at least one hour in the previous week, as defined by the International Labour Organization – ILO."
+},
+"Job security": {
+	"Data sources": "OECD calculations based on the OECD Labour Force Statistics microdata.",
+	"Data Characteristics": "Percentage of the employed people. The reference year is 2013 for all countries.",
+	"Unit of measure used": "Percentage",
+	"Key statistical concept": "This indicator presents the probability to become unemployed. It is calculated as the number of people who were unemployed in 2013, but were employed in 2012 over the total number of employed in 2012."
+},
+"Long-term unemployment rate": {
+	"Data sources": "OECD calculations based on the OECD Labour Force Statistics Database. OECD Labour Force Statistics Database - Labour force statistics by sex and age. OECD Labour Force Statistics Database - Unemployment by duration",
+	"Data Characteristics": "Percentage of the labour force. The reference year is 2013 for all countries.",
+	"Unit of measure used": "Percentage",
+	"Key statistical concept": "This indicator refers to the number of persons who have been unemployed for one year or more as a percentage of the labour force (the sum of employed and unemployed persons). Unemployed persons are defined as those who are currently not working but are willing to do so and actively searching for work."
+},
+"Personal earnings": {
+	"Data sources": "Unpublished data. OECD calculations combining data from the OECD Earnings distribution database and OECD average annual earnings per full-time and full-year equivalent dependent employee database. OECD Labour Market Statistics - Earnings.",
+	"Data Characteristics": "US dollars at current PPPs. The reference year is 2013 for all countries.",
+	"Unit of measure used": "US dollar",
+	"Key statistical concept": "This indicator refers to the average annual wages per full-time equivalent dependent employee, which are obtained by dividing the national-accounts-based total wage bill by the average number of employees in the total economy, which is then multiplied by the ratio of average usual weekly hours per full-time employee to average usually weekly hours for all employees. It considers the employees’ gross remuneration, that is, the total before any deductions are made by the employer in respect of taxes, contributions of employees to social security and pension schemes, life insurance premiums, union dues and other obligations of employees."
+},
+"Quality of support network": {
+	"Data sources": "Gallup World Poll",
+	"Data Characteristics": "Percentage of people. The reference year is 2014 for all countries with the exception of 2013 for Chile, Hungary and Iceland.",
+	"Unit of measure used": "Percentage",
+	"Key statistical concept": "It's a measure of perceived social network support. The indicator is based on the question: “If you were in trouble, do you have relatives or friends you can count on to help you whenever you need them, or not?” and it considers the respondents who respond positively."
+},
+"Educational attainment": {
+	"Data sources": "OECD Education at a Glance",
+	"Data Characteristics": "Percentage of the adult population (aged 25 to 64). The reference year is 2012 for all countries with the exception of 2011 for Chile.",
+	"Unit of measure used": "Percentage",
+	"Key statistical concept": "Educational attainment considers the number of adults aged 25 to 64 holding at least an upper secondary degree over the population of the same age, as defined by the OECD-ISCED classification."
+},
+"Student skills": {
+	"Data sources": "OECD PISA at a Glance",
+	"Data Characteristics": "Average PISA scores. The latest available year is 2012 for all countries.",
+	"Unit of measure used": "Average score",
+	"Key statistical concept": "Students’ average score in reading, mathematics and science as assessed by the OECD’s Programme for International Student Assessment (PISA)"
+},
+"Years in education": {
+	"Data sources": "OECD Education at a Glance",
+	"Data Characteristics": "Number of years. The reference year is 2012 for all countries with the exception of 2011 for Canada.",
+	"Unit of measure used": "Years",
+	"Key statistical concept": "This indicator is the average duration of education in which a 5 year old child can expect to enrol during his/her lifetime until the age of 39. It is calculated under the current enrolment conditions by adding the net enrolment rates for each single year of age from the age of five onwards ."
+},
+"Air pollution": {
+	"Data sources": "World Bank database",
+	"Data Characteristics": "Micrograms per cubic meter. The reference year is 2010 for all countries.",
+	"Unit of measure used": "Micrograms per cubic metres",
+	"Key statistical concept": "The indicator is urban-population weighted average of annual concentrations of particulate matters less than 10 microns in diameter (PM10) in the air in residential areas of cities with more than 100,000 residents."
+},
+"Water quality": {
+	"Data sources": "Gallup World Poll",
+	"Data Characteristics": "Percentage of people. The reference year is 2014 for all countries with the exception of 2013 for Chile, Hungary and Iceland.",
+	"Unit of measure used": "Percentage",
+	"Key statistical concept": "The indicator captures people's subjective appreciation of the environment where they live, in particular the quality of the water. It is based on the question: 'In the city or area where you live, are you satisfied or dissatisfied with the quality of water?' and it considers people who responded they are satisfied."
+},
+"Consultation on rule making": {
+	"Data sources": "OECD, Indicators of regulatory management systems, 2009 report.",
+	"Data Characteristics": "The reference year is 2008 for all countries.",
+	"Unit of measure used": "Average score",
+	"Key statistical concept": "The indicator is a weighted average of yes/no answers to various questions on the existence of law consultation by citizens, of formal procedures enabling general public to impact regulation and governmental actions. The indicator describes the extent to which formal consultation processes are built in at key stages of the design of regulatory proposals, and what mechanisms exist for the outcome of that consultation to influence the preparation of draft primary laws and subordinate regulations. This indicator has been computed based on responses to the OECD’s survey of regulatory management systems, where respondents were government officials in OECD countries. The indicator is based on questions about the existence of formal procedures enabling general public, business and civil society organisations to impact regulation and governmental actions, and on whether citizens’ views on such consultation procedures are made public."
+},
+"Voter turnout": {
+	"Data sources": "International Institute for Democracy and Electoral Assistance (IDEA); Comparative Studies of Electoral System for inequalities estimations.",
+	"Data Characteristics": "Percentage of the population. The reference year is 2015 for Greece; 2014 for Belgium, Brazil, Hungary, Japan, New Zealand, Slovenia, Sweden; 2013 for Australia, Austria, Chile, the Czech Republic, Germany, Iceland, Italy, Luxembourg, Norway; 2012 for Finland, France, Israel, Korea, Mexico, the Netherlands, the Russian Federation, the Slovak Republic, the United States; 2011 for Canada, Denmark, Estonia, Ireland, Portugal, Spain, Switzerland, Turkey;and 2010 for Poland and the United Kingdom.",
+	"Unit of measure used": "Percentage",
+	"Key statistical concept": "Voter turnout is here defined as the ratio between the number of individuals that cast a ballot during an election (whether this vote is valid or not) to the population registered to vote. As institutional features of voting systems vary a lot across countries and across types of elections, the indicator refers to the elections (parliamentary or presidential) that have attracted the largest number of voters in each country."
+},
+"Life expectancy": {
+	"Data sources": "OECD Health Database",
+	"Data Characteristics": "Years old. The reference year is 2012 for all countries with the exception of 2013 for Mexico; 2011 for Canada and the United States.",
+	"Unit of measure used": "Years",
+	"Key statistical concept": "Life expectancy measures how long on average people could expect to live based on the age-specific death rates currently prevailing. This measure refers to people born today and is computed as a weighted average of life expectancy for men and women."
+},
+"Self-reported health": {
+	"Data sources": "OECD Health Database; and European Union Statistics on Income and Living Conditions (EU-SILC)",
+	"Data Characteristics": "Percentage of the population. The reference year is 2013 with the exception of 2012 for the United States; 2011 for Australia and the Russian federation; 2010 for Japan; 2009 for Chile; 2006 for Mexico.",
+	"Unit of measure used": "Percentage",
+	"Key statistical concept": "This indicator refers to the percentage of the population aged 15 years old and over who report 'good' or better health. The WHO recommends using a standard health interview survey to measure it, phrasing the question as 'How is your health in general?' with response scale 'It is very good/ good/ fair/ bad/ very bad'."
+},
+"Life satisfaction": {
+	"Data sources": "Gallup World Poll",
+	"Data Characteristics": "Mean value (Cantril Ladder). The reference year is 2014 for all countries with the exception of 2013 for Chile, Hungary and Iceland.",
+	"Unit of measure used": "Average score",
+	"Key statistical concept": "The indicator considers people's evaluation of their life as a whole. It is a weighted-sum of different response categories based on people's rates of their current life relative to the best and worst possible lives for them on a scale from 0 to 10, using the Cantril Ladder (known also as the 'Self-Anchoring Striving Scale')."
+},
+"Assault rate": {
+	"Data sources": "Gallup World Poll",
+	"Data Characteristics": "Percentage of people aged 15 and over. The reference year is 2010 with the exception of 2013 for Brazil, Mexico, the Russian federation; 2012 for Chile; 2009 for Estonia, Switzerland; 2008 for Iceland, Norway.",
+	"Unit of measure used": "Percentage",
+	"Key statistical concept": "The indicator is based on the question: 'Within the past 12 months: have you been assaulted or mugged?' and it considers people declaring having been assaulted or mugged."
+},
+"Homicide rate": {
+	"Data sources": "OECD Health Status database",
+	"Data Characteristics": "Age-standardised rate per 100,000 population. The reference year is 2012 with the exception of 2011 for Australia, Canada, Chile, Francia, Greece, Israel, Japan and Turkey; 2010 for Belgium, Brazil, Ireland, Italy, New Zealand, the Russian federation, the Slovak Republic, Slovenia, Switzerland, the United Kingdom, the United States; 2009 for Iceland.",
+	"Unit of measure used": "Ratio",
+	"Key statistical concept": "Deaths due to assault"
+},
+"Employees working very long hours": {
+	"Data sources": "OECD Employment Outlook and Swiss Federal Statistics Office",
+	"Data Characteristics": "Percentage of the dependent employed. The reference year is 2013 with the exception of 2012 for Brazil and Chile.",
+	"Unit of measure used": "Percentage",
+	"Key statistical concept": "This indicator measures the proportion of dependent employed whose usual hours of work per week are 50 hours or more."
+},
+"Time devoted to leisure and personal care": {
+	"Data sources": "OECD calculations on Time Use Surveys microdata",
+	"Data Characteristics": "Number of hours per day spent on leisure and personal care. The reference year is 2011 for Japan; 2010 for Canada, United States; 2009-10 for Estonia, Finland, New Zealand, Spain; 2009 for Korea; 2008-09 for Austria, Italy; 2006 for Australia; 2005 for Belgium, the United Kingdom; 2003-04 for Poland; 2001-02 for Germany; 2001 for Denmark; 2000-01 for Norway, Slovenia, Sweden; 1998-99 for France.",
+	"Unit of measure used": "Hours",
+	"Key statistical concept": "This indicator measures the amount of minutes (or hours) per day that, on average, full-time employed people spend on leisure and on personal care activities. Leisure includes a wide range of indoor and outdoor activities such as walking and hiking, sports, entertainment and cultural activities, socializing with friends and family, volunteering, taking a nap, playing games, watching television, using computers, recreational gardening, etc. Personal care activities include sleeping (but not taking a nap), eating and drinking, and other household or medical or personal services (hygiene, visits to the doctor, hairdresser, etc.) consumed by the respondent. Travel time related to personal care is also included. The information is generally collected through national Time Use Surveys, which involve respondents keeping a diary of their activities over one or several representative days for a given period."
+}
+}
+
