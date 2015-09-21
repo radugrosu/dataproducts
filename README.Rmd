@@ -12,7 +12,7 @@ It is supposed to showcase the possibilities offered by RStudio's [Shiny](http:/
 
 ## The Data
 
-The datasets ^[1](http://stats.oecd.org/Index.aspx?DataSetCode=BLI) used for this visualisation is provided by the [Organization for Economic Co-Operation and Development](oecd.org) as a part of its [Better Life Initiative](http://www.oecd.org/statistics/better-life-initiative.htm). This effort allows the OECD to better advise policy makers on the priorities they should concentrate on to deliver better lives for their citizens. 
+The datasets ^^[1](http://stats.oecd.org/Index.aspx?DataSetCode=BLI)^^ used for this visualisation are provided by the [Organization for Economic Co-Operation and Development](oecd.org) as a part of its [Better Life Initiative](http://www.oecd.org/statistics/better-life-initiative.htm). This effort allows the OECD to better advise policy makers on the priorities they should concentrate on to deliver better lives for their citizens. 
 
 The data mostly come from official sources such as the OECD or National Accounts, United Nations Statistics, National Statistics Offices. A couple of indicators are based on data from the Gallup World Poll a division of the Gallup Organization that regularly conducts public opinion polls in more than 140 countries around the world.
 
@@ -26,10 +26,10 @@ for all.
 Each of the 11 topics (community, education, environment, civic engagement, health, housing, income, jobs, life satisfaction, safety and work-life balance) of the Index is currently based on one to three indicators. Within each topic, the indicators are averaged with equal weights. The indicators have been chosen on the basis of a number of statistical criteria such as relevance (face-validity, depth, policy relevance) and data quality (predictive validity, coverage, timeliness, cross-country comparability etc.) and in consultation with OECD member countries. These indicators are good measures of the concepts of well-being, in particular in the context of a country comparative exercise. Other indicators will gradually be added to each topic.
 
 The OECD provides a dataset with measurements for 24 indicators for each year starting with 2013.
-These datasets were downloaded manually, and then cleaned and consolidated in **R**.
+These datasets were downloaded manually, and then cleaned and consolidated in [R](https://www.r-project.org/).
 
 The large majority of these indicators is gender-specific, i.e. available for women and men separately. In a small minority of cases (e.g. in the housing dimension), the indicators cannot be broken down by gender and thus the average country value are supplied for both women and men. 
-    Similarly, majority of indicators is available separately for high socio-economic status versus low socio-economic status. In the case of education, high socio-economic status is defined as the group of the population with a tertiary education degree while low socio-economic status is defined as the group of the population with a primary education degree.
+    Similarly, most indicators are available separately for high socio-economic status versus low socio-economic status. In the case of education, high socio-economic status is defined as the group of the population with a tertiary education degree while low socio-economic status is defined as the group of the population with a primary education degree.
 
 
 ## The Visualization
@@ -44,4 +44,8 @@ The source files for this visualization are available on [GitHub](https://github
 
 
 ----
-*Acknowledgements*:  This visualization was inpired by [this](http://ramnathv.github.io/rChartsShiny/) post.
+*Acknowledgements*:
+
+The information regarding the dataset and the OECD was introduced mostly verbatim from http://www.oecdbetterlifeindex.org.
+
+The visualization was inpired by [this](http://ramnathv.github.io/rChartsShiny/) post by Ramnath Vaidyanathan.
